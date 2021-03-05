@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
+
+body {
+  font-family: 'Poppins', 'Sans-Seriff';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* NAVBAR */
+.navbar {
+  background-color: transparent !important;
+}
+.navbar-brand {
+  color: #848b9c !important;
+}
+.nav,
+.banner {
+  width: 80%;
+  margin: auto;
+}
+.nav-link {
+  margin: 0 10px;
+  color: black !important;
+}
+.nav-link:hover {
+  color: green !important;
+}
+/* NAVBAR */
+
+/* BANNER */
+.name-landing {
+  display: flex;
+  justify-content: space-between;
+}
+.name-container {
+  margin-top: 20%;
+}
+.apple-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.name-container p {
+  margin-top: 5%;
+}
+.name {
+  font-size: 110px;
+  font-weight: 800;
+}
+.title {
+  margin-top: -2%;
+  letter-spacing: 10px;
+}
+.banner img {
+  height: 100%;
+}
+.banner-link,
+.giant-apple-link,
+.num-apple a,
+.contact a {
+  color: red;
+}
+.banner-link:hover,
+.giant-apple-link:hover,
+.num-apple a:hover,
+.contact a:hover {
+  color: green;
+}
+/* BANNER */
+
+/* TECHNOLOGY */
+.technology {
+  margin-top: 5%;
+}
+.apple {
+  width: 100%;
+  height: 500px !important;
+}
+.latest-apple p {
+  margin-top: 5%;
+}
+.pic-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.apple-date {
+  letter-spacing: 5px;
+}
+/* TECHNOLOGY */
+
+/* PROJECTS */
+.giant-apple {
+  margin-top: 5%;
+}
+.giant-apple img {
+  width: 100%;
+  height: auto;
+}
+/* PROJECTS */
+
+/* MISC */
+.apple-small-cap {
+  margin-top: 5%;
+}
+.apple-big-cap p {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* MISC */
+
+/* Numbered apples */
+.number-apple {
+  margin-top: 5%;
+}
+.num-apple h1 {
+  font-size: 70px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.num-apple h2 {
+  margin-top: 5%;
+  font-weight: 600;
+}
+/* Numbered apples */
+
+/* CONTACT */
+.contact {
+  background-color: lightgray;
+  margin-top: 5%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact ul {
+  list-style-type: none;
+}
+.contact a {
+  text-decoration: none;
+  line-height: 2;
+}
+.contact-head {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10%;
+}
+/* CONTACT */
+@media only screen and (max-width: 375px) {
+  .name {
+    font-size: 70px !important;
+  }
+  .name-landing img {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .name {
+    font-size: 95px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .name-landing img {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .contact {
+    background: none;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .name-landing {
+    flex-direction: column;
+    align-items: center;
+  }
+  .name-landing img {
+    width: 100%;
+  }
+  .giant-apple img {
+    height: 95%;
+  }
+  .vis {
+    margin-top: 40px;
+  }
+}
